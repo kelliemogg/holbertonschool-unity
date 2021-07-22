@@ -862,3 +862,75 @@ Received Import Request.
 Start importing Assets/Materials/ball-green.mat using Guid(20b26c4ef4736447f9bff42095b14f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb36ebc19b79d76b3f85fd850868da89') in 0.025775 seconds 
   Import took 0.030464 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 47.112493 seconds.
+  path: Assets/Scenes/5-more_colors.unity
+  artifactKey: Guid(deae6489e97284581be153a2bc3e930b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/5-more_colors.unity using Guid(deae6489e97284581be153a2bc3e930b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e158f78180b49849ad0a0a13634132e') in 0.002773 seconds 
+  Import took 0.007016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.777899 seconds.
+  path: Assets/Scenes/5-more_colors 1.unity
+  artifactKey: Guid(9a5fc155a9fdf4c90ad63a35c342af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/5-more_colors 1.unity using Guid(9a5fc155a9fdf4c90ad63a35c342af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab380f50a04c47b30a9eb0c3b9fa76b') in 0.003460 seconds 
+  Import took 0.008103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.261272 seconds.
+  path: Assets/Scenes/6-tag.unity
+  artifactKey: Guid(9a5fc155a9fdf4c90ad63a35c342af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/6-tag.unity using Guid(9a5fc155a9fdf4c90ad63a35c342af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf062fc5776429106a6c94b7ba9a73f5') in 0.003841 seconds 
+  Import took 0.008647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.806643 seconds.
+  path: Assets/Scenes/6-tags.unity
+  artifactKey: Guid(9a5fc155a9fdf4c90ad63a35c342af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/6-tags.unity using Guid(9a5fc155a9fdf4c90ad63a35c342af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbed824287fff61ba06cbb83459cc73') in 0.002261 seconds 
+  Import took 0.008482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.424078 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.053321 seconds 
+  Import took 0.078896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.530409 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889c87fb3ddefc092c6b5917f46d9c20') in 0.005515 seconds 
+  Import took 0.009491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.005833 seconds.
+  path: Assets/Prefabs/Ball.prefab
+  artifactKey: Guid(7ec3dcf6341f647798c3671fbb7f7230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ball.prefab using Guid(7ec3dcf6341f647798c3671fbb7f7230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1a11002f725b7e506e08939549d5f7') in 0.045381 seconds 
+  Import took 0.049711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.187001 seconds.
+  path: Assets/Scenes/6-tags.unity
+  artifactKey: Guid(9a5fc155a9fdf4c90ad63a35c342af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/6-tags.unity using Guid(9a5fc155a9fdf4c90ad63a35c342af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4828e282853f3bb69316d756a118f8fe') in 0.004091 seconds 
+  Import took 0.008569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Assets/Scenes/6-tags.unity
+  artifactKey: Guid(9a5fc155a9fdf4c90ad63a35c342af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/6-tags.unity using Guid(9a5fc155a9fdf4c90ad63a35c342af55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4828e282853f3bb69316d756a118f8fe') in 0.002159 seconds 
+  Import took 0.006377 seconds .
+
