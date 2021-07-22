@@ -1327,3 +1327,11 @@ Received Import Request.
 Start importing Assets/PBR_Grass_Textures/example_scene/grass_05.mat using Guid(283364ac7d918e044a7eb43f60b15e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec1a6c13c07337e1457152736abc3c7') in 0.073417 seconds 
   Import took 0.081013 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 148.047476 seconds.
+  path: Assets/Textures/ball-texture.mat
+  artifactKey: Guid(52bb7962a4417464585e150c878aff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ball-texture.mat using Guid(52bb7962a4417464585e150c878aff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3722ab6b4533cf1ef4a95d3e180da354') in 0.295164 seconds 
+  Import took 0.341374 seconds .
+
