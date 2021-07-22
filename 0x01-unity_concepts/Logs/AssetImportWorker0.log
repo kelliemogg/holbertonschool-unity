@@ -1424,3 +1424,19 @@ Received Import Request.
 Start importing Assets/Textures/ball-texture.mat using Guid(e02cc44ce113f470da8c76a377bab1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8364a9a7d2c8cbfd77bcd02f5baa531') in 0.039431 seconds 
   Import took 0.044212 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 294.866779 seconds.
+  path: Assets/Textures/ball-texture.mat
+  artifactKey: Guid(e02cc44ce113f470da8c76a377bab1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ball-texture.mat using Guid(e02cc44ce113f470da8c76a377bab1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5f73b27a0c6b5d049996f577e0b132') in 0.093908 seconds 
+  Import took 0.129899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.054440 seconds.
+  path: Assets/Textures/ball-texture.mat
+  artifactKey: Guid(e02cc44ce113f470da8c76a377bab1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ball-texture.mat using Guid(e02cc44ce113f470da8c76a377bab1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647d7924cfeb7a4701d08197c53daa05') in 0.055032 seconds 
+  Import took 0.060439 seconds .
+
