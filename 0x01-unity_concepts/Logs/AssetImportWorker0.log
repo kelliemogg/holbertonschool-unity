@@ -1440,3 +1440,19 @@ Received Import Request.
 Start importing Assets/Textures/ball-texture.mat using Guid(e02cc44ce113f470da8c76a377bab1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647d7924cfeb7a4701d08197c53daa05') in 0.055032 seconds 
   Import took 0.060439 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 477.055113 seconds.
+  path: Assets/Textures/fire-texture-burning-furnace-blaze-stock-wallpaper-1.jpg
+  artifactKey: Guid(8cf79c7c847c54feabb19b8983f37ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/fire-texture-burning-furnace-blaze-stock-wallpaper-1.jpg using Guid(8cf79c7c847c54feabb19b8983f37ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad88475ccdbdad25d0473fb4eefe9ca') in 0.796136 seconds 
+  Import took 0.876119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.528874 seconds.
+  path: Assets/Textures/ball-texture.mat
+  artifactKey: Guid(e02cc44ce113f470da8c76a377bab1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ball-texture.mat using Guid(e02cc44ce113f470da8c76a377bab1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f5c23de1f0a780ff464519f28792c3') in 0.031241 seconds 
+  Import took 0.036070 seconds .
+
