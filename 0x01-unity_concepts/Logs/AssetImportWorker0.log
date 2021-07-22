@@ -1456,3 +1456,27 @@ Received Import Request.
 Start importing Assets/Textures/ball-texture.mat using Guid(e02cc44ce113f470da8c76a377bab1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f5c23de1f0a780ff464519f28792c3') in 0.031241 seconds 
   Import took 0.036070 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1419.499246 seconds.
+  path: Assets/Materials/fire-texture-burning-furnace-blaze-stock-wallpaper-1.mat
+  artifactKey: Guid(a1a62e2a2e1f248529736f57ed460e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/fire-texture-burning-furnace-blaze-stock-wallpaper-1.mat using Guid(a1a62e2a2e1f248529736f57ed460e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94183bb1763d33316acfddaf2e175ee5') in 0.215567 seconds 
+  Import took 0.295592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.858366 seconds.
+  path: Assets/Textures/ball-texture.jpg
+  artifactKey: Guid(8cf79c7c847c54feabb19b8983f37ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ball-texture.jpg using Guid(8cf79c7c847c54feabb19b8983f37ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86645cc4eb8a77e69f6cb162f460689e') in 0.102623 seconds 
+  Import took 0.157441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.161597 seconds.
+  path: Assets/Materials/ball-texture 1.mat
+  artifactKey: Guid(8cfa4040092a74f0f894340f3b5cb786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ball-texture 1.mat using Guid(8cfa4040092a74f0f894340f3b5cb786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9d4808255fb315ef9284ecb0353ba2') in 0.057625 seconds 
+  Import took 0.063495 seconds .
+
