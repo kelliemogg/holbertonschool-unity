@@ -1480,3 +1480,11 @@ Received Import Request.
 Start importing Assets/Materials/ball-texture 1.mat using Guid(8cfa4040092a74f0f894340f3b5cb786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9d4808255fb315ef9284ecb0353ba2') in 0.057625 seconds 
   Import took 0.063495 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 298.168798 seconds.
+  path: Assets/Materials/ball-texture.mat
+  artifactKey: Guid(8cfa4040092a74f0f894340f3b5cb786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ball-texture.mat using Guid(8cfa4040092a74f0f894340f3b5cb786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0258ab4bf7d9fe9de8c350c93e8bc5a2') in 0.140643 seconds 
+  Import took 0.168352 seconds .
+
