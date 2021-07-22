@@ -1271,3 +1271,59 @@ Received Import Request.
 Start importing Assets/Textures/ball-texture.png using Guid(66319961537921f499d8f1b181eabbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e508f9477c4918be6bfc08de0acd80dd') in 0.058537 seconds 
   Import took 0.075915 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 443.164072 seconds.
+  path: Assets/Materials/ball-texture 1.mat
+  artifactKey: Guid(8cfa4040092a74f0f894340f3b5cb786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ball-texture 1.mat using Guid(8cfa4040092a74f0f894340f3b5cb786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80f8b674b97f7c384f705bdff1285a3') in 0.298222 seconds 
+  Import took 0.332879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001564 seconds.
+  path: Assets/Materials/ball-texture 1.mat
+  artifactKey: Guid(8cfa4040092a74f0f894340f3b5cb786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ball-texture 1.mat using Guid(8cfa4040092a74f0f894340f3b5cb786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80f8b674b97f7c384f705bdff1285a3') in 0.023479 seconds 
+  Import took 0.028457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.095055 seconds.
+  path: Assets/PBR_Grass_Textures/example_scene/grass_01.mat
+  artifactKey: Guid(9212c0db92a2b6b4191ee4bd0a08ffab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/example_scene/grass_01.mat using Guid(9212c0db92a2b6b4191ee4bd0a08ffab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c5135c473fcf264c2be1dcadd07b83') in 1.673882 seconds 
+  Import took 1.684246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/PBR_Grass_Textures/example_scene/grass_02.mat
+  artifactKey: Guid(379063af1ad6f1f42b8ed93ddfa72855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/example_scene/grass_02.mat using Guid(379063af1ad6f1f42b8ed93ddfa72855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13565c74ee07f5802a004b759b3c62b') in 0.083196 seconds 
+  Import took 0.099434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/PBR_Grass_Textures/example_scene/grass_03.mat
+  artifactKey: Guid(52bb7962a4417464585e150c878aff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/example_scene/grass_03.mat using Guid(52bb7962a4417464585e150c878aff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bd94adb763abf97463e44b23525db8') in 0.633686 seconds 
+  Import took 0.645497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/PBR_Grass_Textures/example_scene/grass_04.mat
+  artifactKey: Guid(71c72cc387cb16944bd05350c3967849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/example_scene/grass_04.mat using Guid(71c72cc387cb16944bd05350c3967849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208d504dc434799b141081567214dde1') in 0.301984 seconds 
+  Import took 0.317627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/PBR_Grass_Textures/example_scene/grass_05.mat
+  artifactKey: Guid(283364ac7d918e044a7eb43f60b15e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Grass_Textures/example_scene/grass_05.mat using Guid(283364ac7d918e044a7eb43f60b15e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec1a6c13c07337e1457152736abc3c7') in 0.073417 seconds 
+  Import took 0.081013 seconds .
+
