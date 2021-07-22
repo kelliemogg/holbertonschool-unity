@@ -177,7 +177,7 @@ PrefabInstance:
     - target: {fileID: 3666542263500570946, guid: 7ec3dcf6341f647798c3671fbb7f7230, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 52bb7962a4417464585e150c878aff14, type: 2}
+      objectReference: {fileID: 2100000, guid: e02cc44ce113f470da8c76a377bab1ba, type: 2}
     - target: {fileID: 7294196323195271468, guid: 7ec3dcf6341f647798c3671fbb7f7230, type: 3}
       propertyPath: m_Name
       value: Textured Ball
