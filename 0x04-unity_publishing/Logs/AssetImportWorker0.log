@@ -168,3 +168,67 @@ Received Import Request.
 Start importing Assets/Materials/goal.mat using Guid(a1d19c67781a64b25bda2edb00826233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7963b13f9b1fc03c3d5be9480412ba82') in 0.017850 seconds 
   Import took 0.027935 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 738.942239 seconds.
+  path: Assets/Images
+  artifactKey: Guid(fe4a777d4bee24b48b3f5298a422499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images using Guid(fe4a777d4bee24b48b3f5298a422499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736a0f97a7ef8e0e4631ccae38f7c801') in 0.002119 seconds 
+  Import took 0.006430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.850312 seconds.
+  path: Assets/Images/mazeicon.png
+  artifactKey: Guid(203944f5025e64a6697c1599fdff55d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/mazeicon.png using Guid(203944f5025e64a6697c1599fdff55d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6486f5a8a97ac2523e41e07f539d91') in 0.260358 seconds 
+  Import took 0.264894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.692359 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkBlack.png
+  artifactKey: Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkBlack.png using Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6773dec06f9e18e47b3cedf3d6d1ab34') in 0.017164 seconds 
+  Import took 0.021985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Packages/com.unity.purchasing/Icons/UnityEngine.Purchasing.IAPButtonIcon.png
+  artifactKey: Guid(55e457740fe60405dac77af143e1a867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/UnityEngine.Purchasing.IAPButtonIcon.png using Guid(55e457740fe60405dac77af143e1a867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b22b6584e36fb8728e429783a965ca0') in 0.014411 seconds 
+  Import took 0.020452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkWhite.png
+  artifactKey: Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkWhite.png using Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ade22b1dd2736ac9bbfa7f32daf783a') in 0.014511 seconds 
+  Import took 0.019790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.712232 seconds.
+  path: Assets/Images/mazelogo.png
+  artifactKey: Guid(bab5d25f452504e5b9b87b2026b76b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/mazelogo.png using Guid(bab5d25f452504e5b9b87b2026b76b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6ee1475f10f40dfba5111b485f2d62') in 0.024469 seconds 
+  Import took 0.030952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 790.732348 seconds.
+  path: Assets/Images/mazelogo.png
+  artifactKey: Guid(bab5d25f452504e5b9b87b2026b76b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/mazelogo.png using Guid(bab5d25f452504e5b9b87b2026b76b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8264de3f636c49fd1a67b96705855d1c') in 0.082559 seconds 
+  Import took 0.088064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018401 seconds.
+  path: Assets/Images/mazelogo.png
+  artifactKey: Guid(bab5d25f452504e5b9b87b2026b76b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/mazelogo.png using Guid(bab5d25f452504e5b9b87b2026b76b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8264de3f636c49fd1a67b96705855d1c') in 0.020535 seconds 
+  Import took 0.025974 seconds .
+
