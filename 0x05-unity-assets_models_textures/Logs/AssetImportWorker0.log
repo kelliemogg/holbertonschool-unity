@@ -305,3 +305,11 @@ Received Import Request.
 Start importing Assets/Scripts/CameraController.cs using Guid(a5e85ff466c064140bcd4e371d0939f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8a50e896fe57e7d77981e467cc8b54') in 0.004661 seconds 
   Import took 0.009112 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 61010.398925 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(0c1cfc23125ae45c0a748c6b879cf733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(0c1cfc23125ae45c0a748c6b879cf733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8abb88f4f8dd4c49e80710cbe33749a') in 0.680391 seconds 
+  Import took 0.860427 seconds .
+
