@@ -111,6 +111,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1b55c5eb74b24e20807bf391317c566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  speed: 8
+  player: {fileID: 0}
+  gravity: -8
+  isGrounded: 0
+  jumpForce: 5
 --- !u!54 &3396319674411018958
 Rigidbody:
   m_ObjectHideFlags: 0

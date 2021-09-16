@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public float gravity = -8.0f;
     public bool isGrounded;
     public float jumpForce = 5.0f;
+    [SerializeField ] private Transform spawnTilYouDie;
 
     /// gets rb for GameObject
     void Start()
@@ -35,6 +36,19 @@ public class PlayerController : MonoBehaviour
             Vector3 moveDirection = new Vector3(xDirection * speed, jump * jumpForce, zDirection * speed);
 
             rb.AddForce(moveDirection * speed);
+        }
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Respawn"))
+        {
+            GetComponent<CharacterController>().enabled = false;
+            transform.position = new Vector3(0, 10, 0);
+            GetComponent<CharacterController>().enabled = true;
         }
     }
 }
