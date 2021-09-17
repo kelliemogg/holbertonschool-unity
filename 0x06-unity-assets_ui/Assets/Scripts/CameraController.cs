@@ -4,36 +4,41 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Transform plyrTrans;
-    public Vector3 offset;
-    public float smoothFactor = 0.5f;
+    public GameObject player;
+    public Transform target;
+    private Vector3 target_Offset;
 
-    public bool lookAtPlyr = false;
-    public bool rotateAroundPlyr = true;
-    public float rotationSpeed = 5.0f;
+    public float dragSpeed = 2;
+    private Vector3 dragOrigin;
+    private float X;
+    private float Y;
 
     // Start is called before the first frame update
-    void Start() {
-        offset = transform.position - plyrTrans.position;
-    }
-    
-    // LateUpdate is called after Update
-    void LateUpdate()
+    void Start()
     {
-        if (rotateAroundPlyr)
-            {
-                Quaternion camTurnAngle = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * rotationSpeed, Vector3.up);
+        target = player.transform;
+        target_Offset = transform.position - target.position;
+    }
 
-                offset = camTurnAngle * offset;
-            }
-        
-        Vector3 newPost = plyrTrans.position + offset;
+    // Update is called once per frame
+    void Update()
+    {
+        // Steady cam follows player
+        transform.position = Vector3.Lerp(transform.position, target.position+target_Offset, 0.1f);
 
-        transform.position = Vector3.Slerp(transform.position, newPost, smoothFactor);
-
-        if (lookAtPlyr || rotateAroundPlyr)
+        // Rotates when mouse is dragged
+        if (Input.GetMouseButtonDown(0))
         {
-            transform.LookAt(plyrTrans);
+            transform.Rotate(new Vector3(Input.GetAxis("Mouse Y") * dragSpeed, -Input.GetAxis("Mouse X") * dragSpeed, 0));
+            return;
         }
+        if (!Input.GetMouseButton(0)) return;
+        X = transform.rotation.eulerAngles.x;
+        Y = transform.rotation.eulerAngles.y;
+        transform.rotation = Quaternion.Euler(X, Y, 0);
+
+        Vector3 pos = Camera.main.ScreenToViewportPoint(Input.mousePosition - dragOrigin);
+        Vector3 move = new Vector3(pos.x * dragSpeed, 0, pos.y * dragSpeed);
+        transform.Rotate(-move, Space.World);
     }
 }

@@ -1,76 +1,74 @@
-using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-	public float speed;
-	public float jumpForce;
-	public CharacterController controller;
+    public float speed = 10.0f;
+    public float jumpHeight = 5.0f;
+    public float gravity = -10.0f;
+    public GameObject player;
+    private Rigidbody rb;
 
-	private Vector3 moveDir;
-	public float gravityScale;
-	[SerializeField] private Transform respawnPoint;
-	
-	// instantiation
-	
-	void Start () {
-		controller = GetComponent<CharacterController>();
-		Physics.IgnoreLayerCollision(0, 8);
-	}
-	void Update (){
-		// Player movement
-		moveDir =  new Vector3(Input.GetAxis("Horizontal") * speed, moveDir.y, Input.GetAxis("Vertical") * speed);
-		
-		if (controller.isGrounded)
-		{
-			moveDir.y = 0f;
-			if(Input.GetButtonDown("Jump"))
-			{
-				moveDir.y = jumpForce;
-			}
-		}
+    public Transform spawnPoint;
+    //private Vector3 playerVelocity;
 
-		moveDir.y = moveDir.y + (Physics.gravity.y * gravityScale * Time.deltaTime);
-		controller.Move(moveDir * Time.deltaTime);
-		
-		// esc key resets game
-		if (Input.GetKey(KeyCode.Escape))
-        {
-            SceneManager.LoadScene(0);
-		}
-	}
-	    //Detect when there is a collision
-    void OnCollisionEnter(Collision collide)
+    public bool isGrounded;
+
+    private Vector3 move;
+
+    /*private CharacterController controller;
+
+    private Vector3 playerVelocity;
+    private bool groundedPlayer;*/
+
+
+    // Start is called before the first frame update
+    void Start()
     {
-        //Output the name of the GameObject you collide with
-        Debug.Log("I hit the GameObject : " + collide.gameObject.name);
-    }
-	void OnTriggerEnter(Collider other)
-	{
-		if (other.tag == "Respawn")
-		{
-			// GetComponent<CharacterController>().enabled = false;
-			transform.position = respawnPoint.transform.position;
-			// GetComponent<CharacterController>().enabled = true;
-		}
-	}
-    
-    /// <summary>
-    /// Loads the maze scene when the Play button is pressed
-    /// </summary>
-    public void Level2(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        rb = GetComponent<Rigidbody>();
+        isGrounded = true;
     }
 
-	/// <summary>
-	/// Delays scene reload for 3 seconds
-	/// </summary>
-	/// <param name="seconds">Delay in seconds</param>
-	/// <returns>Reset scene</returns>
-	IEnumerator LoadScene(float seconds){
-		yield return new WaitForSeconds(seconds);
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-	}
+    /// <summary>
+    /// This function is called every fixed framerate frame, if the MonoBehaviour is enabled.
+    /// </summary>
+    void FixedUpdate()
+    {
+        //Debug.Log(isGrounded);
+        if (isGrounded == true)
+        {
+            rb.velocity = new Vector3(Input.GetAxis("Horizontal") * speed, Input.GetAxis("Jump") * jumpHeight, Input.GetAxis("Vertical") * speed);
+        }            
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (player.transform.position.y < -10)
+        {
+            player.transform.position = spawnPoint.position;
+            rb.velocity = new Vector3(0, 0, 0);
+        }
+
+        
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+        Debug.Log("Enter");
+        //Debug.Log("Grounded");
+        if (other.gameObject.tag=="Floor")
+            isGrounded = true;
+        Debug.Log(isGrounded);
+    }
+
+    void OnCollisionExit(Collision other)
+    {
+        Debug.Log("Exit");
+        //Debug.Log("Not Grounded");
+        if (other.gameObject.tag=="Floor")
+            isGrounded = false;
+        Debug.Log(isGrounded);
+    }
 }

@@ -2,19 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System;
+
 
 public class Timer : MonoBehaviour
 {
-    private float timez;
-    public Text TimerText;
-    private TimeSpan playTime;
+    ///<summary>Updates timer after player starts to move</summary>
 
-    void Update()
+    public Text TimerText;
+    private float secondsCount = 00.00F;
+    private int minutesCount = 0;
+
+    // Start is called before the first frame update
+    void Start()
     {
-        timez = Time.time;
-        playTime = TimeSpan.FromSeconds(timez);
-        string timeStr = playTime.ToString("m':'ss'.'ff");
-        TimerText.text = timeStr;
+        
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
+        UpdateTimerUI();
+    }
+
+    public void UpdateTimerUI()
+    {
+        secondsCount += Time.deltaTime;
+        TimerText.text = minutesCount + ":" + secondsCount.ToString("00.00");
+        if (secondsCount >= 60)
+        {
+            minutesCount++;
+            secondsCount = 0;
+        }
     }
 }

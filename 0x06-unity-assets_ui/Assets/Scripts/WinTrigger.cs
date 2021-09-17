@@ -5,13 +5,27 @@ using UnityEngine.UI;
 
 public class WinTrigger : MonoBehaviour
 {
-    public GameObject plyr;
-    public Text timerText;
+    public GameObject player;
+    public Text TimerText;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
 
-    private void OnTriggerEnter(Collider other)
-	{
-            plyr.GetComponent<Timer>().enabled = false;
-            timerText.color = Color.green;
-            timerText.fontSize = 75; 
-	}
+    // Update is called once per frame
+    void Update()
+    {
+        
+    } 
+    void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Winner");
+        if (other.gameObject.name == "Player")
+        {
+            TimerText.color = Color.green;
+            TimerText.fontSize = 60;
+            player.GetComponent<Timer>().enabled = false;
+        }
+    }
 }
