@@ -6283,3 +6283,9 @@ Received Import Request.
   path: Assets/Scenes/Level01.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Level01.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21aaadb7a4395584c33ce524d656bab') in 0.005059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 351.175133 seconds.
+  path: Assets/Prefabs/PauseCanvas.prefab
+  artifactKey: Guid(0201b1c88cecc46b984e1f85f5a2a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PauseCanvas.prefab using Guid(0201b1c88cecc46b984e1f85f5a2a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45d1c9cf858ab53037bde7cff660f81') in 0.033808 seconds 
