@@ -10174,5 +10174,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8228398458281721166, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8228398458281721166, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 1641548200286959669, guid: 1cbc1cc4ce5df4a129f280537940c058, type: 3}
+    - target: {fileID: 8228398458281721166, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 3945451662944984592, guid: 1cbc1cc4ce5df4a129f280537940c058, type: 3}
+    - target: {fileID: 8228398458281721166, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 8440510077267459181, guid: 1cbc1cc4ce5df4a129f280537940c058, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
