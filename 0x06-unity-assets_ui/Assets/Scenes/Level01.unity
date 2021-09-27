@@ -10179,6 +10179,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8228398458281721166, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_Navigation.m_Mode
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8228398458281721166, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
       propertyPath: m_SpriteState.m_PressedSprite
       value: 
       objectReference: {fileID: 1641548200286959669, guid: 1cbc1cc4ce5df4a129f280537940c058, type: 3}
@@ -10190,5 +10194,17 @@ PrefabInstance:
       propertyPath: m_SpriteState.m_HighlightedSprite
       value: 
       objectReference: {fileID: 8440510077267459181, guid: 1cbc1cc4ce5df4a129f280537940c058, type: 3}
+    - target: {fileID: 8228398458281721166, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8228398458281721166, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8228398458281721166, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
