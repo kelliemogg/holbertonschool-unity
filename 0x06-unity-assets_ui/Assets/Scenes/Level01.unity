@@ -9483,6 +9483,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968165425}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1995070969 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6501256846450566629, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+  m_PrefabInstance: {fileID: 8228398457746734188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1995070970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995070969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a185134748244b66924f6fde9d1f0d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2005786074
 GameObject:
   m_ObjectHideFlags: 0
@@ -10109,9 +10126,37 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 1000
       objectReference: {fileID: 0}
+    - target: {fileID: 6501256846036975167, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6501256846036975167, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6501256846450566629, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6501256846450566633, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
       propertyPath: m_RootOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6501256846564191070, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6501256846564191070, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6501256847139103733, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6501256847139103733, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6501256847263910001, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
       propertyPath: m_Transition
@@ -10168,7 +10213,7 @@ PrefabInstance:
     - target: {fileID: 6501256847289317594, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 
-      objectReference: {fileID: 3945451662944984592, guid: 1cbc1cc4ce5df4a129f280537940c058, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6501256847289317594, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
       propertyPath: m_SpriteState.m_HighlightedSprite
       value: 
