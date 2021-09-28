@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -16,8 +17,6 @@ public class PauseMenu : MonoBehaviour
     void Start()
     {
         isPaused = false;
-
-        timeScript = GetComponent<Timer>();
 
         Button ResumeButton = resumeButton.GetComponent<Button>();
         ResumeButton.onClick.AddListener(Resume);
@@ -34,7 +33,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene(SceneName);
+        SceneManager.LoadScene(name);
     }
 
     public void MainMenu()
@@ -53,7 +52,6 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("Paused");
         isPaused = true;
         pauseCanvas.gameObject.SetActive(true);
-        timeScript.Pause();
 
     }
     public void Resume()
@@ -61,6 +59,5 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("Resume");
         isPaused = false;
         pauseCanvas.gameObject.SetActive(false);
-        timeScript.Resume();
     }
 }
