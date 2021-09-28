@@ -1517,6 +1517,17 @@ MonoBehaviour:
   restartButton: {fileID: 0}
   menuButton: {fileID: 0}
   optionsButton: {fileID: 0}
+--- !u!114 &320559120 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6501256847263910001, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+  m_PrefabInstance: {fileID: 8228398457746734188}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320559117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &320564739 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5728195948246322529, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
@@ -1540,6 +1551,17 @@ MonoBehaviour:
   restartButton: {fileID: 0}
   menuButton: {fileID: 0}
   optionsButton: {fileID: 0}
+--- !u!114 &320564742 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5728195948246322531, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+  m_PrefabInstance: {fileID: 8228398457746734188}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320564739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &331922901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1892,6 +1914,17 @@ MonoBehaviour:
   restartButton: {fileID: 0}
   menuButton: {fileID: 0}
   optionsButton: {fileID: 0}
+--- !u!114 &426686446 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6501256847289317594, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+  m_PrefabInstance: {fileID: 8228398457746734188}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426686443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &434777721
 GameObject:
   m_ObjectHideFlags: 0
@@ -9560,11 +9593,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPaused: 0
-  pauseCanvas: {fileID: 0}
-  resumeButton: {fileID: 0}
-  restartButton: {fileID: 0}
-  menuButton: {fileID: 0}
-  optionsButton: {fileID: 0}
+  pauseCanvas: {fileID: 1995070969}
+  resumeButton: {fileID: 320559120}
+  restartButton: {fileID: 2038152426}
+  menuButton: {fileID: 426686446}
+  optionsButton: {fileID: 320564742}
 --- !u!1 &2005786074
 GameObject:
   m_ObjectHideFlags: 0
@@ -9681,6 +9714,17 @@ MonoBehaviour:
   restartButton: {fileID: 0}
   menuButton: {fileID: 0}
   optionsButton: {fileID: 0}
+--- !u!114 &2038152426 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6501256847632551921, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+  m_PrefabInstance: {fileID: 8228398457746734188}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038152423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2067132197
 GameObject:
   m_ObjectHideFlags: 0
