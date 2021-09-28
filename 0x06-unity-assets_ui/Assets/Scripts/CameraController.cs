@@ -12,12 +12,18 @@ public class CameraController : MonoBehaviour
     private Vector3 dragOrigin;
     private float X;
     private float Y;
+    public bool isInverted = false;
 
     // Start is called before the first frame update
     void Start()
     {
         target = player.transform;
         target_Offset = transform.position - target.position;
+
+        if (PlayerPrefs.GetInt("isInvertedY") == 1)
+        {
+            isInverted = true;
+        }
     }
 
     // Update is called once per frame

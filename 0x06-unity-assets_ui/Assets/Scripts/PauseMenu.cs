@@ -6,18 +6,16 @@ using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
-    public bool isPaused;
     public GameObject pauseCanvas;
     public Button resumeButton;
     public Button restartButton;
     public Button menuButton;
     public Button optionsButton;
+    public bool isOnPause;
 
     // Start is called before the first frame update
     void Start()
     {
-        isPaused = false;
-
         Button ResumeButton = resumeButton.GetComponent<Button>();
         ResumeButton.onClick.AddListener(Resume);
 
@@ -29,6 +27,28 @@ public class PauseMenu : MonoBehaviour
 
         Button OptionsButton = optionsButton.GetComponent<Button>();
         OptionsButton.onClick.AddListener(Options);
+
+        isOnPause = false;
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Pause();
+        }
+    }
+
+    public void Pause()
+    {
+        isOnPause = true;
+        pauseCanvas.gameObject.SetActive(true);
+    }
+
+    public void Resume()
+    {
+        isOnPause = false;
+        pauseCanvas.gameObject.SetActive(false);
     }
 
     public void Restart()
@@ -38,26 +58,11 @@ public class PauseMenu : MonoBehaviour
 
     public void MainMenu()
     {
-        Debug.Log("Main menu clicked");
         SceneManager.LoadScene("MainMenu");
     }
 
     public void Options()
     {
         SceneManager.LoadScene("Options");
-    }
-
-    public void Pause()
-    {
-        Debug.Log("Paused");
-        isPaused = true;
-        pauseCanvas.gameObject.SetActive(true);
-
-    }
-    public void Resume()
-    {
-        Debug.Log("Resume");
-        isPaused = false;
-        pauseCanvas.gameObject.SetActive(false);
     }
 }
