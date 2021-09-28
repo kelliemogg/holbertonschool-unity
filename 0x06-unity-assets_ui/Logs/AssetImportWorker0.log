@@ -270,3 +270,21 @@ Received Import Request.
   path: Assets/Prefabs/PauseCanvas.prefab
   artifactKey: Guid(0201b1c88cecc46b984e1f85f5a2a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/PauseCanvas.prefab using Guid(0201b1c88cecc46b984e1f85f5a2a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91495dbe94b487a816b5cc92cd0ed9db') in 0.029015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 393.218132 seconds.
+  path: Assets/Prefabs/PauseCanvas.prefab
+  artifactKey: Guid(0201b1c88cecc46b984e1f85f5a2a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PauseCanvas.prefab using Guid(0201b1c88cecc46b984e1f85f5a2a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d1eeff4719fa174d8eb2efc01e384e') in 0.016823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.108733 seconds.
+  path: Assets/Prefabs/PauseCanvas.prefab
+  artifactKey: Guid(0201b1c88cecc46b984e1f85f5a2a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PauseCanvas.prefab using Guid(0201b1c88cecc46b984e1f85f5a2a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a96be42d4ea5e851f0a6df01817ac05') in 0.036473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.469140 seconds.
+  path: Assets/Prefabs/PauseCanvas.prefab
+  artifactKey: Guid(0201b1c88cecc46b984e1f85f5a2a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PauseCanvas.prefab using Guid(0201b1c88cecc46b984e1f85f5a2a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484bd7c0c89589d10aab45c56575b261') in 0.033520 seconds 
