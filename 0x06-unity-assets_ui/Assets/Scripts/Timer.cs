@@ -11,6 +11,8 @@ public class Timer : MonoBehaviour
     public Text TimerText;
     private float secondsCount = 00.00F;
     private int minutesCount = 0;
+    public bool isOnPause = false;
+    public Text WinnerText;
 
     // Start is called before the first frame update
     void Start()
@@ -33,5 +35,11 @@ public class Timer : MonoBehaviour
             minutesCount++;
             secondsCount = 0;
         }
+    }
+    public void Win()
+    {
+        isOnPause = true;
+        WinnerText.text = TimerText.text;
+        TimerText.text = "";
     }
 }
