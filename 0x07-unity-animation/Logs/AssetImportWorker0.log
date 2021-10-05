@@ -138,3 +138,33 @@ Received Import Request.
   path: Assets/Animators 1
   artifactKey: Guid(53306f6fe333948b1905d886816c86ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Animators 1 using Guid(53306f6fe333948b1905d886816c86ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04461c204ba93c5659138d801fb2244') in 0.002102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 321.528199 seconds.
+  path: Assets/Animations/Intro01.anim
+  artifactKey: Guid(987c2e562a7ba474889c359579303c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Intro01.anim using Guid(987c2e562a7ba474889c359579303c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cce21edc04e2c66d85683ff786be02') in 0.224438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 235.345753 seconds.
+  path: Assets/Animators/CutsceneCamera.controller
+  artifactKey: Guid(2bf6057d6f1fa430f8aa3f1ca179fe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/CutsceneCamera.controller using Guid(2bf6057d6f1fa430f8aa3f1ca179fe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076951f39ae9e61a54c45915653412e3') in 0.100136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1998.946782 seconds.
+  path: Assets/Animations/Intro01.anim
+  artifactKey: Guid(987c2e562a7ba474889c359579303c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Intro01.anim using Guid(987c2e562a7ba474889c359579303c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8910f5c461052b10f7e88377a4314157') in 0.014371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1159.375701 seconds.
+  path: Assets/Animations/Intro01.anim
+  artifactKey: Guid(987c2e562a7ba474889c359579303c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Intro01.anim using Guid(987c2e562a7ba474889c359579303c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a523df6b8acaebd9d152462cea4a6468') in 0.033498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.188830 seconds.
+  path: Assets/Animations/Intro01.anim
+  artifactKey: Guid(987c2e562a7ba474889c359579303c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Intro01.anim using Guid(987c2e562a7ba474889c359579303c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbaa76cd068f58352e4f4611eca4177a') in 0.005411 seconds 
