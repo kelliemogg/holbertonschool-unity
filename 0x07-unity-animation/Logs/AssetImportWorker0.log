@@ -4962,3 +4962,8 @@ Received Import Request.
   path: Assets/Animations/ty@Getting Up.fbx
   artifactKey: Guid(9758884d2a92a4c819a20da6da459fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Animations/ty@Getting Up.fbx using Guid(9758884d2a92a4c819a20da6da459fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9afb48f91c9617cd9ccbffcd8de043c') in 0.066247 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025470 seconds.
+Begin MonoManager ReloadAssembly
