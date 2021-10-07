@@ -4864,3 +4864,21 @@ Received Import Request.
   path: Assets/Prefabs/Player.prefab
   artifactKey: Guid(df05ebfc5896540b4a0705939722d8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Player.prefab using Guid(df05ebfc5896540b4a0705939722d8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50cec05e19c324dad740c5d1472049b') in 0.078148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2084.200686 seconds.
+  path: Assets/Animators/ty.controller
+  artifactKey: Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/ty.controller using Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c4741d682a76562df1d1fc08162203') in 0.110963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.380479 seconds.
+  path: Assets/Animators/ty.controller
+  artifactKey: Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/ty.controller using Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ae117f8133df83a86e14160712a009') in 0.048436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.857553 seconds.
+  path: Assets/Animators/ty.controller
+  artifactKey: Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/ty.controller using Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47021798f0b7aff78fe89204d9529636') in 0.042339 seconds 
