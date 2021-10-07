@@ -4686,3 +4686,21 @@ Received Import Request.
   path: Assets/Animations/ty@Jump.fbx
   artifactKey: Guid(6a665badd95e446e7bd4f7e54405082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Animations/ty@Jump.fbx using Guid(6a665badd95e446e7bd4f7e54405082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba18319ff7a921e864d6a251ac0d51f') in 0.055333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.326460 seconds.
+  path: Assets/Animators/ty.controller
+  artifactKey: Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/ty.controller using Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f722cbbbc4418210fb4192222f186e8a') in 0.013779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 298.107853 seconds.
+  path: Assets/Animations/ty@Falling.fbx
+  artifactKey: Guid(37ee87d45f848491892964a88e0f4987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ty@Falling.fbx using Guid(37ee87d45f848491892964a88e0f4987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879ae58c7f71fc65804e58bb9672cca9') in 0.012143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.483381 seconds.
+  path: Assets/Animators/ty.controller
+  artifactKey: Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/ty.controller using Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4a1eba1825565782ed4b44bc173945') in 0.012727 seconds 
