@@ -4722,3 +4722,9 @@ Received Import Request.
   path: Assets/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx
   artifactKey: Guid(12e52e465ed793a4d801955e9f964a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx using Guid(12e52e465ed793a4d801955e9f964a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf91d7ce0aa61097c2fe4360d789b58') in 0.018702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.149968 seconds.
+  path: Assets/Animators/ty.controller
+  artifactKey: Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/ty.controller using Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a3a6499d1b152af914e5ab4e0a394b') in 0.015066 seconds 
