@@ -3409,6 +3409,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f48f1a27c7f82ce4d8fcc66f66945006, type: 3}
+--- !u!1 &688897039 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3311127346211810289, guid: 84511b56304b349508ec15e7a83d296c, type: 3}
+  m_PrefabInstance: {fileID: 3311127345627826551}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &694620689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4383,27 +4388,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 805944672}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbaa860a71bbe4764a1fd468a81c1713, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 805944672}
   spawnPoint: {fileID: 1201880826}
---- !u!114 &805944681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 805944672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a185134748244b66924f6fde9d1f0d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pauseCanvas: {fileID: 1995070969}
-  isOnPause: 0
 --- !u!1 &822661392 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 798fbd8e40ae08946840d1acddba5cef, type: 3}
@@ -5604,6 +5595,7 @@ GameObject:
   - component: {fileID: 1035772430}
   - component: {fileID: 1035772429}
   - component: {fileID: 1035772432}
+  - component: {fileID: 1035772433}
   m_Layer: 0
   m_Name: CutsceneCamera
   m_TagString: Untagged
@@ -5618,7 +5610,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1035772428}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1035772430
 Camera:
   m_ObjectHideFlags: 0
@@ -5695,6 +5687,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1035772433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035772428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d84f15578af405fbef07a714a84430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 805944672}
+  playerFollowCamera: {fileID: 1781505302}
+  timerCanvas: {fileID: 688897039}
+  introCam: {fileID: 1035772428}
 --- !u!1 &1044809009 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: ba7a1193441cf6e4ea78c2ef8a6d52a4, type: 3}
@@ -7962,7 +7970,7 @@ MonoBehaviour:
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
-  m_CancelButton: Escape
+  m_CancelButton: Cancel
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0
@@ -7978,7 +7986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 1995070969}
+  m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1368304261
@@ -10426,11 +10434,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968165425}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1995070969 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6501256846450566629, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
-  m_PrefabInstance: {fileID: 8228398457746734188}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2005786074
 GameObject:
   m_ObjectHideFlags: 0
@@ -10951,6 +10954,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TimerCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3311127346211810289, guid: 84511b56304b349508ec15e7a83d296c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3311127346211810301, guid: 84511b56304b349508ec15e7a83d296c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -11044,6 +11051,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1995070970, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6501256846450566629, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
       propertyPath: m_Name
       value: PauseCanvas
@@ -11132,5 +11143,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1995070970, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0201b1c88cecc46b984e1f85f5a2a183, type: 3}
