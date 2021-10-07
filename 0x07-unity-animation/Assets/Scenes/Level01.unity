@@ -10912,6 +10912,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1477321788599751864, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0f1b541106f5b44dc97d1ea722333c8b, type: 2}
     - target: {fileID: 8904241315501728263, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
       propertyPath: WinText
       value: 
