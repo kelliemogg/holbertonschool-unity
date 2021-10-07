@@ -4882,3 +4882,9 @@ Received Import Request.
   path: Assets/Animators/ty.controller
   artifactKey: Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Animators/ty.controller using Guid(0f1b541106f5b44dc97d1ea722333c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47021798f0b7aff78fe89204d9529636') in 0.042339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.552440 seconds.
+  path: Assets/Animations/ty@Falling Flat Impact.fbx
+  artifactKey: Guid(8dcd4f9f2fc41418285bb81e8d400360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/ty@Falling Flat Impact.fbx using Guid(8dcd4f9f2fc41418285bb81e8d400360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7b8393035d7714b7c06e3c610f53d6') in 0.108438 seconds 
