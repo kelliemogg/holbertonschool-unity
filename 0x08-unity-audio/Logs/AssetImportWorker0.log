@@ -698,3 +698,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7674.114803 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentCapsule_Unpack.prefab
+  artifactKey: Guid(212907312655a4443a025a304442c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentCapsule_Unpack.prefab using Guid(212907312655a4443a025a304442c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b2e75ea069038b7dce8f7aee5c53d5') in 0.729788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003810 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerCapsule.prefab
+  artifactKey: Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerCapsule.prefab using Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f026fa308beac9e7734ddb4091feab') in 0.034454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.559959 seconds.
+  path: Assets/Prefabs/MenuSFX.prefab
+  artifactKey: Guid(e5e08f160969a493496f285a32eb5e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MenuSFX.prefab using Guid(e5e08f160969a493496f285a32eb5e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609bddb9011cc4f926109da02723291b') in 0.012741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.000287 seconds.
+  path: Assets/Prefabs/OptionsButton.prefab
+  artifactKey: Guid(5e579b219912843d494f437bb4df66d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OptionsButton.prefab using Guid(5e579b219912843d494f437bb4df66d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1eadade004d9a106c63239295251bf') in 0.089954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Prefabs/PauseCanvas.prefab
+  artifactKey: Guid(0201b1c88cecc46b984e1f85f5a2a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PauseCanvas.prefab using Guid(0201b1c88cecc46b984e1f85f5a2a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3226165a5d2da0abb1585c094e5e6b') in 0.022323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.350054 seconds.
+  path: Assets/Prefabs/ExitButton.prefab
+  artifactKey: Guid(c9daa1a079dd241aba05dc577b20bbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ExitButton.prefab using Guid(c9daa1a079dd241aba05dc577b20bbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3ef2feba60bf22ce8ef9e7620ae417') in 0.013932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 210.843872 seconds.
+  path: Assets/Audio/MasterMixer.mixer
+  artifactKey: Guid(651e8998867ec4ce4ba24e6f7298bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/MasterMixer.mixer using Guid(651e8998867ec4ce4ba24e6f7298bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac35b2aac0cd6bc2803bf8c5e9a1d351') in 0.080902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.853904 seconds.
+  path: Assets/Audio/MasterMixer.mixer
+  artifactKey: Guid(651e8998867ec4ce4ba24e6f7298bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/MasterMixer.mixer using Guid(651e8998867ec4ce4ba24e6f7298bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170c32d1296f3cf4ae4bb4c140b901f0') in 0.005204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.985244 seconds.
+  path: Assets/Audio/MasterMixer.mixer
+  artifactKey: Guid(651e8998867ec4ce4ba24e6f7298bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/MasterMixer.mixer using Guid(651e8998867ec4ce4ba24e6f7298bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb85dfb292600cd6806eb6924ee1413') in 0.004990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.002752 seconds.
+  path: Assets/Audio/MasterMixer.mixer
+  artifactKey: Guid(651e8998867ec4ce4ba24e6f7298bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/MasterMixer.mixer using Guid(651e8998867ec4ce4ba24e6f7298bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7888f659ab0ce79fc7b613a4a39de237') in 0.004572 seconds 
