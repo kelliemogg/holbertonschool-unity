@@ -404,3 +404,271 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 721.264761 seconds.
+  path: Assets/Materials/glow.mat
+  artifactKey: Guid(4088b2c8b65d640bd857dfc889f7141b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glow.mat using Guid(4088b2c8b65d640bd857dfc889f7141b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455a14d67a0f68216cf59ce5c315b95d') in 0.156065 seconds 
+  Import took 0.160710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.659561 seconds.
+  path: Assets/Materials/glow_animated.shadergraph
+  artifactKey: Guid(80ce769cc14cc4c46b9684336dbd5ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glow_animated.shadergraph using Guid(80ce769cc14cc4c46b9684336dbd5ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff03be273d0bb4fac3aa196d0d46113') in 0.006757 seconds 
+  Import took 0.011330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 337.623013 seconds.
+  path: Assets/Materials/glow.shadergraph
+  artifactKey: Guid(a8b8936b3969f46188a594ac84ff04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glow.shadergraph using Guid(a8b8936b3969f46188a594ac84ff04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a91e58af316d561b0fba7240417e4c5') in 0.002355 seconds 
+  Import took 0.006857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1721.344819 seconds.
+  path: Assets/Materials/glow.shadergraph
+  artifactKey: Guid(a8b8936b3969f46188a594ac84ff04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glow.shadergraph using Guid(a8b8936b3969f46188a594ac84ff04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3878e6320d26f8887776738226574bb8') in 0.002074 seconds 
+  Import took 0.006395 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.069626 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.869 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1870ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1649ms)
+			LoadAssemblies (401ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (424ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2702 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.5 MB.
+System memory in use after: 242.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3406.
+Total: 3.454517 ms (FindLiveObjects: 0.194645 ms CreateObjectMapping: 0.119833 ms MarkObjects: 3.122488 ms  DeleteObjects: 0.016771 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.069415 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.807 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1808ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1600ms)
+			LoadAssemblies (447ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (406ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2702 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.7 MB.
+System memory in use after: 243.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3408.
+Total: 3.538134 ms (FindLiveObjects: 0.290056 ms CreateObjectMapping: 0.228367 ms MarkObjects: 3.003315 ms  DeleteObjects: 0.015537 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 730.107427 seconds.
+  path: Assets/Materials/glow_animated.shadergraph
+  artifactKey: Guid(80ce769cc14cc4c46b9684336dbd5ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glow_animated.shadergraph using Guid(80ce769cc14cc4c46b9684336dbd5ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b677c9f87f986212b48585cf58a2b8') in 0.038999 seconds 
+  Import took 0.043427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 323.955561 seconds.
+  path: Assets/Materials/glow.shadergraph
+  artifactKey: Guid(a8b8936b3969f46188a594ac84ff04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glow.shadergraph using Guid(a8b8936b3969f46188a594ac84ff04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d01b005ace1925ed9e321585483824c') in 0.005385 seconds 
+  Import took 0.010072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.497429 seconds.
+  path: Assets/Materials/glow_animated.shadergraph
+  artifactKey: Guid(80ce769cc14cc4c46b9684336dbd5ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glow_animated.shadergraph using Guid(80ce769cc14cc4c46b9684336dbd5ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008f405bd7a7bebac495e49297ed5f5f') in 0.003634 seconds 
+  Import took 0.008214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.382941 seconds.
+  path: Assets/Materials/glow_animated.shadergraph
+  artifactKey: Guid(80ce769cc14cc4c46b9684336dbd5ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glow_animated.shadergraph using Guid(80ce769cc14cc4c46b9684336dbd5ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb119ec569bb4ee89dd5bfc76cac9f55') in 0.006889 seconds 
+  Import took 0.011579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 901.990407 seconds.
+  path: Assets/Materials/glow.mat
+  artifactKey: Guid(4088b2c8b65d640bd857dfc889f7141b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glow.mat using Guid(4088b2c8b65d640bd857dfc889f7141b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5073146c44f879e961f47ecbff069e40') in 0.182094 seconds 
+  Import took 0.186565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Materials/glow_animated.mat
+  artifactKey: Guid(8492c5509422b4299a40f6e58bbd8e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glow_animated.mat using Guid(8492c5509422b4299a40f6e58bbd8e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0348288fe987b3863795d04b86b595d7') in 0.013920 seconds 
+  Import took 0.018007 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.461 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1462ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1241ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (415ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2702 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.1 MB.
+System memory in use after: 243.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3446.
+Total: 3.132802 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.104204 ms MarkObjects: 2.802593 ms  DeleteObjects: 0.014765 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 149.113287 seconds.
+  path: Assets/Materials/glow_animated.mat
+  artifactKey: Guid(8492c5509422b4299a40f6e58bbd8e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/glow_animated.mat using Guid(8492c5509422b4299a40f6e58bbd8e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042dbc7fd82730d2ca7a3727b0e66b88') in 0.199759 seconds 
+  Import took 0.206041 seconds .
+
