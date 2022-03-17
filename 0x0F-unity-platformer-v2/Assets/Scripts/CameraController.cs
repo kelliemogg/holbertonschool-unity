@@ -17,6 +17,9 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
+        // Calculate and store the offset value by getting the distance between
+        // the player's position and camera's position.
         target = player.transform;
         target_Offset = transform.position - target.position;
 
