@@ -1,6 +1,6 @@
-### Platformer Game
+# Platformer Game
 
-#<img width="1075" alt="Screen Shot 2022-03-20 at 2 35 02 PM" src="https://user-images.githubusercontent.com/67158073/159179712-242ec0ef-27bf-4a03-b813-93f138489057.png">
+<img width="1075" alt="Screen Shot 2022-03-20 at 2 35 02 PM" src="https://user-images.githubusercontent.com/67158073/159179712-242ec0ef-27bf-4a03-b813-93f138489057.png">
 # Learning Objectives
 Explore Unity by making a simple platformer game. Through this project I learned about using assets, making animations, controlling animators, using Cinemachine, and UI. 
 
